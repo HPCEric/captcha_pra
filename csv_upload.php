@@ -31,4 +31,7 @@ function saveToDB($file)
     while (!feof($resourse)) {
         echo fgets($resourse) . "<br>";
     }
+    fwrite($resourse,"6,amy,女,2\r\n");
+    
+    fclose($resourse);
 }
