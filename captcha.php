@@ -23,6 +23,8 @@ echo "A=>".ord('A'); */
  * 3. 每次產生的排列順序，不固定
  */
 
+// ASCII 標準資訊交換碼
+
 $str="";
 $length=rand(4,8);
  for($i=0;$i<$length;$i++){
